@@ -57,6 +57,8 @@ If you prefer not to use any of dependency managers, you can integrate manually.
 ## Usage
 
 ```swift
+import Chip
+
 @State var isOn = false
 
 var body: some View {
