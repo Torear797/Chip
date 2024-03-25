@@ -136,6 +136,15 @@ VStack {
   </a>
 </div>
 
+### Custom Label
+
+```swift
+Chip(isOn: $isOn) {
+     Text("My Custom Label")
+         .font(.system(size: 25))
+}
+```
+
 ## Add an extension for convenience
 
 ```swift
