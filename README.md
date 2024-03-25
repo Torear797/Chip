@@ -6,8 +6,8 @@
 <div align="center">
 
 ![GitHub top language](https://img.shields.io/github/languages/top/Torear797/SwiftUI-IOS-Resume?color=orange)
-[![Swift](https://img.shields.io/badge/Swift-5.8-orange?style=flat)](https://img.shields.io/badge/Swift-5.8-Orange?style=flat)
-![ios-image](https://img.shields.io/badge/iOS-15.0+-blue.svg?style=flat)
+[![Swift](https://img.shields.io/badge/Swift-5.9-orange?style=flat)](https://img.shields.io/badge/Swift-5.8-Orange?style=flat)
+![ios-image](https://img.shields.io/badge/iOS-13.0+-blue.svg?style=flat)
 [![Platforms](https://img.shields.io/badge/Platforms-iOS-yellowgreen?style=flat)](https://img.shields.io/badge/Platforms-iOS-Green?style=flat)
 [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat)
 </div>
@@ -16,7 +16,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Torear797/Chip">
-    <img src="Chip/Assets/preview.png" alt="Logo" width="462" height="337">
+    <img src="Assets/preview.png" alt="Logo" width="462" height="337">
   </a>
 </div>
 
@@ -130,7 +130,7 @@ VStack {
 <br />
 <div align="center">
   <a href="https://github.com/Torear797/Chip">
-    <img src="Chip/Assets/chipStyleExample.png" alt="chipStyleExample" width="449" height="183">
+    <img src="Assets/chipStyleExample.png" alt="chipStyleExample" width="449" height="183">
   </a>
 </div>
 
