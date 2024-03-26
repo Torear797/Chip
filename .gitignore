@@ -1,0 +1,17 @@
+# osX files
+.DS_Store
+.Trashes
+
+# Swift Package Manager
+.swiftpm
+
+# User Interface
+*UserInterfaceState.xcuserstate
+
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc

@@ -15,6 +15,18 @@ public struct Chip<Label> : View where Label : View {
     
     @Environment(\.chipStyle) var style
     
+    // MARK: Init
+    
+    init(
+        isOn: Binding<Bool>,
+        action: @escaping () -> Void = {},
+        @ViewBuilder label: () -> Label
+    ) {
+        self.action = action
+        self.label = AnyView(label())
+        _isOn = isOn
+    }
+    
     // MARK: View
     
     public var body: some View {
@@ -38,17 +50,7 @@ public struct Chip<Label> : View where Label : View {
 
 // MARK: - Initializers
 
-public extension Chip where Label == Text {
-    init(
-        isOn: Binding<Bool>,
-        action: @escaping () -> Void = {},
-        @ViewBuilder label: () -> Label
-    ) {
-        self.action = action
-        self.label = AnyView(label())
-        _isOn = isOn
-    }
-    
+public extension Chip {
     init(
         isOn: Bool = false,
         action: @escaping () -> Void = {},
@@ -58,7 +60,9 @@ public extension Chip where Label == Text {
         self.label = AnyView(label())
         _isOn = .constant(isOn)
     }
-    
+}
+
+public extension Chip where Label == Text {
     init(
         _ titleKey: LocalizedStringKey,
         isOn: Binding<Bool>,

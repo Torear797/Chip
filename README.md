@@ -139,10 +139,29 @@ VStack {
 ### Custom Label
 
 ```swift
-Chip(isOn: $isOn) {
-     Text("My Custom Label")
-         .font(.system(size: 25))
-}
+        Chip(isOn: $isOn) {
+            HStack {
+                Image(systemName: "xmark")
+                
+                Text("My Custom Label")
+                    .font(.system(size: 25))
+            }
+        }
+```
+
+### Custom Action
+
+```swift
+        Chip(isOn: $isOn) {
+            HStack {
+                Image(systemName: "xmark")
+                
+                Text("My Custom Label")
+                    .font(.system(size: 25))
+            }
+        } action: {
+            print("Alohomora")
+        }
 ```
 
 ## Add an extension for convenience
